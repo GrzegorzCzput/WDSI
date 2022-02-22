@@ -79,7 +79,7 @@ center_y = center_y / img_h
 width    = width / img_w 
 height   = height / img_h 
 ```
-Po przeliczeniu pozycji pozostaje zapisaanie ramki w pliku .txt o takiej same nazwie jak opiswany obraz. Opisywane wyżej czynności wykonywane są przez fukcje `dict2yolo(data_dict)`. Warto też zauważyć że zapisuje mimo że używany przezemni zbiór danych zawiera zdjęcia wileu znaków zpisuje jedynie znaki przejśc dla piszych. 
+Po przeliczeniu pozycji pozostaje zapisanie ramki w pliku .txt o takiej same nazwie jak opiswany obraz. Opisywane wyżej czynności wykonywane są przez fukcje `dict2yolo(data_dict)`. Warto też zauważyć że używany przezemni zbiór danych zawiera zdjęcia wileu znaków ja zpisuje jedynie znaki przejśc dla piszych. Ponieważ tylko one potrzebne są do wuczenia sieci. 
 
 # Podział danych
 
@@ -90,7 +90,7 @@ Obrobione dane dzielę na trzyz zbiory:
 
 Po podziale danych przenosze je do odpowadających folderów.
 
-Aby zaoszczędzić miejsce ale zobrazować strukturę danych pozostawiłęm puste foldery annotations oraz images ale fodery w Road_Sign_Dataset są gotowe do trenowania YOLO. Jesli chcę się odwtorzyć procedurę przygotowani danych należy umieścić adnotacje i zdjęcia w folderach annotations oraz images i przejśc procedurę sortowania plików.
+Aby zaoszczędzić miejsce ale zobrazować strukturę danych pozostawiłęm puste foldery annotations oraz images ale fodery w Road_Sign_Dataset są gotowe do trenowania YOLO. Jesli chcę się odwtorzyć procedurę przygotowani danych należy umieścić adnotacje i zdjęcia w folderach annotations oraz images i przejść procedurę sortowania plików.
 
 # Nauka 
 Wymagane biblioteki:
