@@ -2,7 +2,7 @@
 ## Złożenia i dobór modelu
 Celem projektu było storzenie klasyfikatora byłby w stanie rozpoznawać znaki przejśc dla pieszych. Algorytm powinien wykonywać swoje zadanie precyzyjnie a sama detekcja powinna odbywać się retywnie szybko.
 
-Biorąc pod uwagę wymagania projektu uznałem żę nalepiej nadanjącym się do tego celu jest algorytm YOLO wykorzytsujący sieci konwolucyje. Jako że wymagamy od nszego alogrymu prędkości to YOLO jest dośc oczywistym woborem gdyż dział zdecydowanie szybciej niź RCNN (rekurencyjne konwolucyjne sieci neuronowe) jednocześnie będąc prawie tak dokładna. Poniżej widzimy jeden z przykładowy obraz pokazujący działania YOLO.
+Biorąc pod uwagę wymagania projektu uznałem żę nalepiej nadanjącym się do tego celu jest algorytm YOLO wykorzytsujący sieci konwolucyje. Jako że wymagamy od nszego alogrymu prędkości to YOLO jest dośc oczywistym woborem gdyż dział zdecydowanie szybciej niź RCNN (regionowe konwolucyjne sieci neuronowe) jednocześnie będąc prawie tak dokładna. Poniżej widzimy jeden z przykładowy obraz pokazujący działania YOLO.
 
 ![](pictures/zidane.jpg)
 
