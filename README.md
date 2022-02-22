@@ -140,6 +140,8 @@ Do testowania niepotrzebne jest ponowne trenowanie sieci, ponieważ wagi zapisan
 
 Aby uruchomić procedurę testowania obrazy należy umieścić w folderze Road_Sign_Dataset/images/test a następnie uruchomić następującą komendę.
 
+Do detekcji korzystam z tak zodyfikowanej fukcji detect.py (fukcja z repo YOLOv5) aby zwracał w terminalu wyniki detekcji według wytycznych projektu. 
+
 '''
 python3 detect.py --source ../Road_Sign_Dataset/images/test/ --weights runs/train/yolo_road_det25/weights/best.pt --conf 0.25 --name yolo_road_det --nosave
 '''
